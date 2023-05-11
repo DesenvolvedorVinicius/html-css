@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url('../imagens/manuelgomis.jpeg');
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+}
+
+header {
+    background-color: #4DE686;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+header > h1, p{
+    color: #550899;
+    
+}
+
+section#principal {
+    background-color: #4DE686;
+    color:#550899 ;
+    width: 800px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+p {
+    text-align: justify;
+}
+
+footer {
+    background-color: #4DE686;
+    margin-top: 10px;
+    padding: 15px;
+    color:#550899;
+}
+
+footer img {
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+footer p {
+    text-indent: 20px;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    font-weight: bold;
+}
+
+div:hover {
+    font-weight: bolder;
+}
+
+div {
+    padding: 20px;
+}
